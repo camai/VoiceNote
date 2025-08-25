@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/drawable/ic_call_answer_video.xml",
+        "source": "com.jg.voicenote.feature.voice-core-1.15.0-41:/drawable/ic_call_answer_video.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/drawable/notification_bg.xml",
+        "source": "com.jg.voicenote.feature.voice-core-1.15.0-41:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/drawable/ic_pause.xml",
+        "source": "com.jg.voicenote.feature.voice-main-57:/drawable/ic_pause.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/drawable/ic_stop.xml",
+        "source": "com.jg.voicenote.feature.voice-main-57:/drawable/ic_stop.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/drawable/ic_call_answer_low.xml",
+        "source": "com.jg.voicenote.feature.voice-core-1.15.0-41:/drawable/ic_call_answer_low.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/drawable/notification_icon_background.xml",
+        "source": "com.jg.voicenote.feature.voice-core-1.15.0-41:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/drawable/ic_call_decline.xml",
+        "source": "com.jg.voicenote.feature.voice-core-1.15.0-41:/drawable/ic_call_decline.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/drawable/ic_call_answer_video_low.xml",
+        "source": "com.jg.voicenote.feature.voice-core-1.15.0-41:/drawable/ic_call_answer_video_low.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/drawable/notification_bg_low.xml",
+        "source": "com.jg.voicenote.feature.voice-core-1.15.0-41:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/drawable/ic_call_decline_low.xml",
+        "source": "com.jg.voicenote.feature.voice-core-1.15.0-41:/drawable/ic_call_decline_low.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/drawable/ic_call_answer.xml",
+        "source": "com.jg.voicenote.feature.voice-core-1.15.0-41:/drawable/ic_call_answer.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/drawable/ic_play_arrow.xml",
+        "source": "com.jg.voicenote.feature.voice-main-57:/drawable/ic_play_arrow.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/drawable/notification_tile_bg.xml",
+        "source": "com.jg.voicenote.feature.voice-core-1.15.0-41:/drawable/notification_tile_bg.xml"
+    }
+]

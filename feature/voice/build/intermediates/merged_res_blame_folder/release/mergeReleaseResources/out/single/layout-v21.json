@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/layout-v21/notification_action_tombstone.xml",
+        "source": "com.jg.voicenote.feature.voice-core-1.15.0-41:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/layout-v21/notification_template_icon_group.xml",
+        "source": "com.jg.voicenote.feature.voice-core-1.15.0-41:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/layout-v21/notification_template_custom_big.xml",
+        "source": "com.jg.voicenote.feature.voice-core-1.15.0-41:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/layout-v21/notification_action.xml",
+        "source": "com.jg.voicenote.feature.voice-core-1.15.0-41:/layout-v21/notification_action.xml"
+    }
+]

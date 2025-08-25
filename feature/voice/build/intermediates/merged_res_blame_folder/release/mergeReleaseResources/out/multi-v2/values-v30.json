@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.jg.voicenote.feature.voice-release-56:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "/Users/ijung-geun/.gradle/caches/8.14.3/transforms/b64da561f4c5e605ba628657b5fceccf/transformed/material3-release/res/values-v30/values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.jg.voicenote.feature.voice-mergeReleaseResources-54:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "/Users/ijung-geun/.gradle/caches/8.14.3/transforms/b64da561f4c5e605ba628657b5fceccf/transformed/material3-release/res/values-v30/values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}

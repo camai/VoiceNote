@@ -1,0 +1,121 @@
+/Users/ijung-geun/VoiceNote/feature/voice/src/main/java/com/jg/voicenote/feature/voice/ui/components/VoiceRecordItem.kt:108: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        String.format("%02d:%02d:%02d", hours, minutes, seconds)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/ijung-geun/VoiceNote/feature/voice/src/main/java/com/jg/voicenote/feature/voice/ui/components/VoiceRecordItem.kt:110: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        String.format("%02d:%02d", minutes, seconds)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/ijung-geun/VoiceNote/feature/voice/src/main/java/com/jg/voicenote/feature/voice/ui/components/VoiceRecordItem.kt:119: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        String.format("%.1f MB", mb)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/ijung-geun/VoiceNote/feature/voice/src/main/java/com/jg/voicenote/feature/voice/ui/components/VoiceRecordItem.kt:121: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+        String.format("%.1f KB", kb)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/ijung-geun/VoiceNote/feature/voice/src/main/java/com/jg/voicenote/feature/voice/ui/VoiceUiState.kt:67: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+            String.format("%02d:%02d:%02d", hours, minutes, seconds)
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/ijung-geun/VoiceNote/feature/voice/src/main/java/com/jg/voicenote/feature/voice/ui/VoiceUiState.kt:69: Warning: Implicitly using the default locale is a common source of bugs: Use String.format(Locale, ...) instead [DefaultLocale]
+            String.format("%02d:%02d", minutes, seconds)
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "DefaultLocale":
+   Calling String#toLowerCase() or #toUpperCase() without specifying an
+   explicit locale is a common source of bugs. The reason for that is that
+   those methods will use the current locale on the user's device, and even
+   though the code appears to work correctly when you are developing the app,
+   it will fail in some locales. For example, in the Turkish locale, the
+   uppercase replacement for i is not I.
+
+   If you want the methods to just perform ASCII replacement, for example to
+   convert an enum name, call String#toUpperCase(Locale.ROOT) instead. If you
+   really want to use the current locale, call
+   String#toUpperCase(Locale.getDefault()) instead.
+
+   https://developer.android.com/reference/java/util/Locale.html#default_locale
+
+/Users/ijung-geun/VoiceNote/feature/voice/build.gradle.kts:23: Warning: A newer version of io.mockk:mockk than 1.13.8 is available: 1.14.5 [NewerVersionAvailable]
+    testImplementation("io.mockk:mockk:1.13.8")
+                       ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/ijung-geun/VoiceNote/feature/voice/build.gradle.kts:24: Warning: A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-test than 1.7.3 is available: 1.10.2 [NewerVersionAvailable]
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "NewerVersionAvailable":
+   This detector checks with a central repository to see if there are newer
+   versions available for the dependencies used by this project. This is
+   similar to the GradleDependency check, which checks for newer versions
+   available in the Android SDK tools and libraries, but this works with any
+   MavenCentral dependency, and connects to the library every time, which
+   makes it more flexible but also much slower.
+
+/Users/ijung-geun/VoiceNote/feature/voice/src/main/java/com/jg/voicenote/feature/voice/recorder/AudioRecorder.kt:146: Warning: Unnecessary; SDK_INT is always >= 27 [ObsoleteSdkInt]
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N && 
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/ijung-geun/VoiceNote/feature/voice/src/main/java/com/jg/voicenote/feature/voice/recorder/AudioRecorder.kt:165: Warning: Unnecessary; SDK_INT is always >= 27 [ObsoleteSdkInt]
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N && 
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/ijung-geun/VoiceNote/feature/voice/src/main/java/com/jg/voicenote/feature/voice/service/RecordingService.kt:55: Warning: Unnecessary; SDK_INT is always >= 27 [ObsoleteSdkInt]
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/ijung-geun/VoiceNote/feature/voice/src/main/java/com/jg/voicenote/feature/voice/service/RecordingService.kt:106: Warning: Unnecessary; SDK_INT is always >= 27 [ObsoleteSdkInt]
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/ijung-geun/VoiceNote/feature/voice/src/main/java/com/jg/voicenote/feature/voice/service/RecordingService.kt:175: Warning: Unnecessary; SDK_INT is always >= 27 [ObsoleteSdkInt]
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/ijung-geun/VoiceNote/feature/voice/src/main/java/com/jg/voicenote/feature/voice/service/RecordingService.kt:205: Warning: Unnecessary; SDK_INT is always >= 27 [ObsoleteSdkInt]
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ObsoleteSdkInt":
+   This check flags version checks that are not necessary, because the
+   minSdkVersion (or surrounding known API level) is already at least as high
+   as the version checked for.
+
+   Similarly, it also looks for resources in -vNN folders, such as values-v14
+   where the version qualifier is less than or equal to the minSdkVersion,
+   where the contents should be merged into the best folder.
+
+/Users/ijung-geun/VoiceNote/feature/voice/src/main/java/com/jg/voicenote/feature/voice/ui/components/RecordingTab.kt:102: Hint: Prefer mutableIntStateOf instead of mutableStateOf [AutoboxingStateCreation from androidx.compose.runtime]
+    var animationState by remember { mutableStateOf(0) }
+                                     ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "AutoboxingStateCreation":
+   Calling mutableStateOf<T>() when T is either backed by a primitive type on
+   the JVM or is a value class results in a state implementation that requires
+   all state values to be boxed. This usually causes an additional allocation
+   for each state write, and adds some additional work to auto-unbox values
+   when reading the value of the state. Instead, prefer to use a specialized
+   primitive state implementation for Int, Long, Float, and Double when the
+   state does not need to track null values and does not override the default
+   SnapshotMutationPolicy. See mutableIntStateOf(), mutableLongStateOf(),
+   mutableFloatStateOf(), and mutableDoubleStateOf() for more information.
+
+   Vendor: Jetpack Compose
+   Identifier: androidx.compose.runtime
+   Feedback: https://issuetracker.google.com/issues/new?component=612128
+
+/Users/ijung-geun/VoiceNote/feature/voice/src/main/res/values/strings.xml:51: Warning: Replace "..." with ellipsis character (…, &#8230;) ? [TypographyEllipsis]
+    <string name="notification_recording">녹음 중...</string>
+                                          ~~~~~~~
+
+   Explanation for issues of type "TypographyEllipsis":
+   You can replace the string "..." with a dedicated ellipsis character,
+   ellipsis character (u2026, &#8230;). This can help make the text more
+   readable.
+
+   https://en.wikipedia.org/wiki/Ellipsis
+
+/Users/ijung-geun/VoiceNote/feature/voice/build.gradle.kts:23: Warning: Use version catalog instead [UseTomlInstead]
+    testImplementation("io.mockk:mockk:1.13.8")
+                       ~~~~~~~~~~~~~~~~~~~~~~~
+/Users/ijung-geun/VoiceNote/feature/voice/build.gradle.kts:24: Warning: Use version catalog instead [UseTomlInstead]
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseTomlInstead":
+   If your project is using a libs.versions.toml file, you should place all
+   Gradle dependencies in the TOML file. This lint check looks for version
+   declarations outside of the TOML file and suggests moving them (and in the
+   IDE, provides a quickfix to performing the operation automatically).
+
+0 errors, 17 warnings, 1 hint

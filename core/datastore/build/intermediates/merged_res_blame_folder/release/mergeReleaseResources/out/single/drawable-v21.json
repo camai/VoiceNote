@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.jg.voicenote.core.datastore-release-16:/drawable-v21/notification_action_background.xml",
+        "source": "com.jg.voicenote.core.datastore-core-1.8.0-3:/drawable-v21/notification_action_background.xml"
+    }
+]

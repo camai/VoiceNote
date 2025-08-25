@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.jg.voicenote.core.model-release-12:/drawable/notification_icon_background.xml",
+        "source": "com.jg.voicenote.core.model-core-1.8.0-1:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.core.model-release-12:/drawable/notification_bg.xml",
+        "source": "com.jg.voicenote.core.model-core-1.8.0-1:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.core.model-release-12:/drawable/notification_tile_bg.xml",
+        "source": "com.jg.voicenote.core.model-core-1.8.0-1:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.core.model-release-12:/drawable/notification_bg_low.xml",
+        "source": "com.jg.voicenote.core.model-core-1.8.0-1:/drawable/notification_bg_low.xml"
+    }
+]

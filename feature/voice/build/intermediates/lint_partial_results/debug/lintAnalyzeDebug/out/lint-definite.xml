@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.11.1" type="incidents">
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:feature:voice*debug*MAIN*sourceProvider*0*javaDir*0}/com/jg/voicenote/feature/voice/ui/components/VoiceRecordItem.kt"
+            line="108"
+            column="9"
+            startOffset="3724"
+            endLine="108"
+            endColumn="65"
+            endOffset="3780"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:feature:voice*debug*MAIN*sourceProvider*0*javaDir*0}/com/jg/voicenote/feature/voice/ui/components/VoiceRecordItem.kt"
+            line="110"
+            column="9"
+            startOffset="3802"
+            endLine="110"
+            endColumn="53"
+            endOffset="3846"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:feature:voice*debug*MAIN*sourceProvider*0*javaDir*0}/com/jg/voicenote/feature/voice/ui/components/VoiceRecordItem.kt"
+            line="119"
+            column="9"
+            startOffset="4004"
+            endLine="119"
+            endColumn="37"
+            endOffset="4032"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:feature:voice*debug*MAIN*sourceProvider*0*javaDir*0}/com/jg/voicenote/feature/voice/ui/components/VoiceRecordItem.kt"
+            line="121"
+            column="9"
+            startOffset="4054"
+            endLine="121"
+            endColumn="37"
+            endOffset="4082"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:feature:voice*debug*MAIN*sourceProvider*0*javaDir*0}/com/jg/voicenote/feature/voice/ui/VoiceUiState.kt"
+            line="67"
+            column="13"
+            startOffset="2045"
+            endLine="67"
+            endColumn="69"
+            endOffset="2101"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead">
+        <location
+            file="${:feature:voice*debug*MAIN*sourceProvider*0*javaDir*0}/com/jg/voicenote/feature/voice/ui/VoiceUiState.kt"
+            line="69"
+            column="13"
+            startOffset="2131"
+            endLine="69"
+            endColumn="57"
+            endOffset="2175"/>
+    </incident>
+
+    <incident
+        id="NewerVersionAvailable"
+        severity="warning"
+        message="A newer version of io.mockk:mockk than 1.13.8 is available: 1.14.5">
+        <fix-replace
+            description="Change to 1.14.5"
+            family="Update versions"
+            oldString="1.13.8"
+            replacement="1.14.5"
+            priority="0"/>
+        <location
+            file="${:feature:voice*projectDir}/build.gradle.kts"
+            line="23"
+            column="24"
+            startOffset="602"
+            endLine="23"
+            endColumn="47"
+            endOffset="625"/>
+    </incident>
+
+    <incident
+        id="NewerVersionAvailable"
+        severity="warning"
+        message="A newer version of org.jetbrains.kotlinx:kotlinx-coroutines-test than 1.7.3 is available: 1.10.2">
+        <fix-replace
+            description="Change to 1.10.2"
+            family="Update versions"
+            oldString="1.7.3"
+            replacement="1.10.2"
+            priority="0"/>
+        <location
+            file="${:feature:voice*projectDir}/build.gradle.kts"
+            line="24"
+            column="24"
+            startOffset="650"
+            endLine="24"
+            endColumn="77"
+            endOffset="703"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; `SDK_INT` is always >= 27">
+        <fix-data conditional="true"/>
+        <location
+            file="${:feature:voice*debug*MAIN*sourceProvider*0*javaDir*0}/com/jg/voicenote/feature/voice/recorder/AudioRecorder.kt"
+            line="146"
+            column="17"
+            startOffset="4567"
+            endLine="146"
+            endColumn="63"
+            endOffset="4613"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; `SDK_INT` is always >= 27">
+        <fix-data conditional="true"/>
+        <location
+            file="${:feature:voice*debug*MAIN*sourceProvider*0*javaDir*0}/com/jg/voicenote/feature/voice/recorder/AudioRecorder.kt"
+            line="165"
+            column="17"
+            startOffset="5104"
+            endLine="165"
+            endColumn="63"
+            endOffset="5150"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; `SDK_INT` is always >= 27">
+        <fix-data conditional="true"/>
+        <location
+            file="${:feature:voice*debug*MAIN*sourceProvider*0*javaDir*0}/com/jg/voicenote/feature/voice/service/RecordingService.kt"
+            line="55"
+            column="17"
+            startOffset="1827"
+            endLine="55"
+            endColumn="63"
+            endOffset="1873"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; `SDK_INT` is always >= 27">
+        <fix-data conditional="true"/>
+        <location
+            file="${:feature:voice*debug*MAIN*sourceProvider*0*javaDir*0}/com/jg/voicenote/feature/voice/service/RecordingService.kt"
+            line="106"
+            column="13"
+            startOffset="3480"
+            endLine="106"
+            endColumn="59"
+            endOffset="3526"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; `SDK_INT` is always >= 27">
+        <fix-data conditional="true"/>
+        <location
+            file="${:feature:voice*debug*MAIN*sourceProvider*0*javaDir*0}/com/jg/voicenote/feature/voice/service/RecordingService.kt"
+            line="175"
+            column="25"
+            startOffset="5976"
+            endLine="175"
+            endColumn="71"
+            endOffset="6022"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; `SDK_INT` is always >= 27">
+        <fix-data conditional="true"/>
+        <location
+            file="${:feature:voice*debug*MAIN*sourceProvider*0*javaDir*0}/com/jg/voicenote/feature/voice/service/RecordingService.kt"
+            line="205"
+            column="13"
+            startOffset="6784"
+            endLine="205"
+            endColumn="59"
+            endOffset="6830"/>
+    </incident>
+
+    <incident
+        id="AutoboxingStateCreation"
+        severity="informational"
+        message="Prefer `mutableIntStateOf` instead of `mutableStateOf`">
+        <fix-replace
+            description="Replace with mutableIntStateOf"
+            replacement="androidx.compose.runtime.mutableIntStateOf"
+            shortenNames="true"
+            priority="0">
+            <range
+                file="${:feature:voice*debug*MAIN*sourceProvider*0*javaDir*0}/com/jg/voicenote/feature/voice/ui/components/RecordingTab.kt"
+                startOffset="3422"
+                endOffset="3436"/>
+        </fix-replace>
+        <location
+            file="${:feature:voice*debug*MAIN*sourceProvider*0*javaDir*0}/com/jg/voicenote/feature/voice/ui/components/RecordingTab.kt"
+            line="102"
+            column="38"
+            startOffset="3422"
+            endLine="102"
+            endColumn="52"
+            endOffset="3436"/>
+    </incident>
+
+    <incident
+        id="TypographyEllipsis"
+        severity="warning"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?">
+        <fix-replace
+            description="Replace with …"
+            oldString="..."
+            replacement="…"
+            priority="0"/>
+        <location
+            file="${:feature:voice*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="51"
+            column="43"
+            startOffset="1997"
+            endLine="51"
+            endColumn="50"
+            endOffset="2004"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <fix-composite
+            description="Replace with new library catalog declaration for io-mockk-mockk2"
+            robot="true">
+            <fix-replace
+                description="Replace with mockkMockkVersion = &quot;1.13.8&quot;..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="mockkMockkVersion = &quot;1.13.8&quot;&#xA;"
+                priority="0">
+                <range
+                    file="$HOME/VoiceNote/gradle/libs.versions.toml"
+                    startOffset="380"
+                    endOffset="380"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with io-mockk-mockk2 = { module = &quot;io.mockk:mockk&quot;, version.ref = &quot;mockkMockkVersion&quot; }..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="io-mockk-mockk2 = { module = &quot;io.mockk:mockk&quot;, version.ref = &quot;mockkMockkVersion&quot; }&#xA;"
+                priority="0">
+                <range
+                    file="$HOME/VoiceNote/gradle/libs.versions.toml"
+                    startOffset="1884"
+                    endOffset="1884"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with libs.io.mockk.mockk2"
+                robot="true"
+                replacement="libs.io.mockk.mockk2"
+                priority="0">
+                <range
+                    file="${:feature:voice*projectDir}/build.gradle.kts"
+                    startOffset="602"
+                    endOffset="625"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:feature:voice*projectDir}/build.gradle.kts"
+            line="23"
+            column="24"
+            startOffset="602"
+            endLine="23"
+            endColumn="47"
+            endOffset="625"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <fix-composite
+            description="Replace with new library catalog declaration for org-jetbrains-kotlinx-kotlinx-coroutines-test2"
+            robot="true">
+            <fix-replace
+                description="Replace with jetbrainsKotlinxCoroutinesTestVersion = &quot;1.7.3&quot;..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="jetbrainsKotlinxCoroutinesTestVersion = &quot;1.7.3&quot;&#xA;"
+                priority="0">
+                <range
+                    file="$HOME/VoiceNote/gradle/libs.versions.toml"
+                    startOffset="240"
+                    endOffset="240"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with org-jetbrains-kotlinx-kotlinx-coroutines-test2 = { module = &quot;org.jetbrains.kotlinx:kotlinx-coroutines-test&quot;, version.ref = &quot;jetbrainsKotlinxCoroutinesTestVersion&quot; }..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="org-jetbrains-kotlinx-kotlinx-coroutines-test2 = { module = &quot;org.jetbrains.kotlinx:kotlinx-coroutines-test&quot;, version.ref = &quot;jetbrainsKotlinxCoroutinesTestVersion&quot; }&#xA;"
+                priority="0">
+                <range
+                    file="$HOME/VoiceNote/gradle/libs.versions.toml"
+                    startOffset="2780"
+                    endOffset="2780"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with libs.org.jetbrains.kotlinx.kotlinx.coroutines.test2"
+                robot="true"
+                replacement="libs.org.jetbrains.kotlinx.kotlinx.coroutines.test2"
+                priority="0">
+                <range
+                    file="${:feature:voice*projectDir}/build.gradle.kts"
+                    startOffset="650"
+                    endOffset="703"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:feature:voice*projectDir}/build.gradle.kts"
+            line="24"
+            column="24"
+            startOffset="650"
+            endLine="24"
+            endColumn="77"
+            endOffset="703"/>
+    </incident>
+
+</incidents>

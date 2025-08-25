@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.11.1" type="conditional_incidents">
+
+    <incident
+        id="NotificationPermission"
+        severity="error"
+        message="When targeting Android 13 or higher, posting a permission requires holding the `POST_NOTIFICATIONS` permission">
+        <fix-data missing="android.permission.POST_NOTIFICATIONS"/>
+        <location
+            file="${:feature:voice*debug*MAIN*sourceProvider*0*javaDir*0}/com/jg/voicenote/feature/voice/service/RecordingService.kt"
+            line="245"
+            column="9"
+            startOffset="8506"
+            endLine="245"
+            endColumn="66"
+            endOffset="8563"/>
+    </incident>
+
+</incidents>

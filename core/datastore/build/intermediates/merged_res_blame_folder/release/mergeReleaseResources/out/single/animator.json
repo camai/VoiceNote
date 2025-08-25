@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.jg.voicenote.core.datastore-release-16:/animator/fragment_close_exit.xml",
+        "source": "com.jg.voicenote.core.datastore-fragment-1.5.1-4:/animator/fragment_close_exit.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.core.datastore-release-16:/animator/fragment_close_enter.xml",
+        "source": "com.jg.voicenote.core.datastore-fragment-1.5.1-4:/animator/fragment_close_enter.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.core.datastore-release-16:/animator/fragment_fade_enter.xml",
+        "source": "com.jg.voicenote.core.datastore-fragment-1.5.1-4:/animator/fragment_fade_enter.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.core.datastore-release-16:/animator/fragment_fade_exit.xml",
+        "source": "com.jg.voicenote.core.datastore-fragment-1.5.1-4:/animator/fragment_fade_exit.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.core.datastore-release-16:/animator/fragment_open_exit.xml",
+        "source": "com.jg.voicenote.core.datastore-fragment-1.5.1-4:/animator/fragment_open_exit.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.core.datastore-release-16:/animator/fragment_open_enter.xml",
+        "source": "com.jg.voicenote.core.datastore-fragment-1.5.1-4:/animator/fragment_open_enter.xml"
+    }
+]

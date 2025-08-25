@@ -1,0 +1,9 @@
+[projects]
+core-data = { path = ":core:data" }
+core-database = { path = ":core:database" }
+core-datastore = { path = ":core:datastore" }
+core-domain = { path = ":core:domain" }
+core-model = { path = ":core:model" }
+feature-voice = { path = ":feature:voice" }
+
+

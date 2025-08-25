@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/layout/notification_template_part_time.xml",
+        "source": "com.jg.voicenote.feature.voice-core-1.15.0-41:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/layout/custom_dialog.xml",
+        "source": "com.jg.voicenote.feature.voice-core-1.15.0-41:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/layout/ime_base_split_test_activity.xml",
+        "source": "com.jg.voicenote.feature.voice-core-1.15.0-41:/layout/ime_base_split_test_activity.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/layout/notification_template_part_chronometer.xml",
+        "source": "com.jg.voicenote.feature.voice-core-1.15.0-41:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "com.jg.voicenote.feature.voice-release-56:/layout/ime_secondary_split_test_activity.xml",
+        "source": "com.jg.voicenote.feature.voice-core-1.15.0-41:/layout/ime_secondary_split_test_activity.xml"
+    }
+]

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VoiceNote</string>
+    <string name="bit_rate_selection">비트레이트 선택</string>
+    <string name="delete">삭제</string>
+    <string name="file_play_error">파일을 재생할 수 없습니다: %s</string>
+    <string name="no_recorded_files">녹음된 파일이 없습니다</string>
+    <string name="notification_channel_description">백그라운드 녹음을 위한 알림</string>
+    <string name="notification_channel_name">녹음 서비스</string>
+    <string name="notification_paused">녹음 일시정지</string>
+    <string name="notification_recording">녹음 중...</string>
+    <string name="pause">일시정지</string>
+    <string name="play">재생</string>
+    <string name="playback">재생</string>
+    <string name="playback_paused">재생이 일시정지되었습니다</string>
+    <string name="playback_started">재생이 시작되었습니다</string>
+    <string name="playback_stopped">재생이 중지되었습니다</string>
+    <string name="quality_selection">품질 선택</string>
+    <string name="record">녹음</string>
+    <string name="record_in_recording_tab">녹음 탭에서 음성을 녹음해보세요</string>
+    <string name="recording">녹음</string>
+    <string name="recording_paused">녹음이 일시정지되었습니다</string>
+    <string name="recording_resumed">녹음이 재개되었습니다</string>
+    <string name="recording_saved">녹음이 저장되었습니다</string>
+    <string name="recording_started">녹음이 시작되었습니다</string>
+    <string name="recording_title_prefix">녹음</string>
+    <string name="resume">재개</string>
+    <string name="sample_rate_selection">샘플레이트 선택</string>
+    <string name="setting_bit_rate">비트레이트</string>
+    <string name="setting_bit_rate_with_value">비트레이트(%s)</string>
+    <string name="setting_quality">품질</string>
+    <string name="setting_quality_description">큰 값은 좋은품질 그리고 파일 크기가 큽니다</string>
+    <string name="setting_quality_with_value">품질(%s)</string>
+    <string name="setting_sample_rate">샘플레이트</string>
+    <string name="setting_sample_rate_with_value">샘플레이트(%s)</string>
+    <string name="settings">설정</string>
+    <string name="stop">중지</string>
+    <string name="tab_playback">재생</string>
+    <string name="tab_recording">녹음</string>
+    <string name="tab_settings">설정</string>
+</resources>

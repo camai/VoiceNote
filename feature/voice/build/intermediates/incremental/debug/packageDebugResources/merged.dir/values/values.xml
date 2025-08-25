@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VoiceNote</string>
+    <string name="notification_channel_description">녹음 상태를 알려주는 알림입니다</string>
+    <string name="notification_channel_name">녹음 알림</string>
+    <string name="notification_paused">일시정지됨</string>
+    <string name="notification_recording">녹음 중...</string>
+    <string name="notification_storage_warning">저장 공간 부족</string>
+    <string name="playback_duration">재생 시간</string>
+    <string name="playback_no_files">녹음된 파일이 없습니다</string>
+    <string name="playback_play">재생</string>
+    <string name="playback_stop">중지</string>
+    <string name="recording_pause">일시정지</string>
+    <string name="recording_resume">재개</string>
+    <string name="recording_saved">녹음이 저장되었습니다</string>
+    <string name="recording_start">녹음 시작</string>
+    <string name="recording_stop">녹음 중지</string>
+    <string name="recording_title_prefix">recording</string>
+    <string name="settings_bit_rate">비트 레이트</string>
+    <string name="settings_bit_rate_128k">128kbps</string>
+    <string name="settings_bit_rate_192k">192kbps</string>
+    <string name="settings_bit_rate_256k">256kbps</string>
+    <string name="settings_bit_rate_32k">32kbps</string>
+    <string name="settings_bit_rate_64k">64kbps</string>
+    <string name="settings_quality">품질</string>
+    <string name="settings_quality_high">높음</string>
+    <string name="settings_quality_low">낮음</string>
+    <string name="settings_quality_medium">보통</string>
+    <string name="settings_sample_rate">샘플 레이트</string>
+    <string name="settings_sample_rate_16k">16kHz</string>
+    <string name="settings_sample_rate_22k">22.05kHz</string>
+    <string name="settings_sample_rate_44k">44.1kHz</string>
+    <string name="settings_sample_rate_48k">48kHz</string>
+    <string name="settings_sample_rate_8k">8kHz</string>
+    <string name="settings_title">설정</string>
+    <string name="tab_playback">재생</string>
+    <string name="tab_recording">녹음</string>
+    <string name="tab_settings">설정</string>
+</resources>
